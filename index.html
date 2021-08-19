@@ -36,6 +36,120 @@
       </div>
     </nav>
 
+	<div class="container my-4">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="filter">
+            <h3 class="my-4">فیلتر محصولات</h3>
+            <div class="priceFilter">
+              <label for="priceRange"><h5>قیمت</h5></label>
+              <input
+                type="range"
+                class="custom-range"
+                min="0"
+                max="5"
+                step="0.5"
+                id="priceRange"
+              />
+            </div>
+            <div class="brandFilter">
+              <h5 class="mb-3">برند</h5>
+              <div class="my-1 d-flex align-items-center">
+                <input type="checkbox" value="" id="appleBrand" class="ml-2" />
+                <label for="appleBrand" class="my-0"> اپل </label>
+              </div>
+
+              <div class="my-1 d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  value=""
+                  id="microsoftBrand"
+                  class="ml-2"
+                />
+                <label for="microsoftBrand" class="my-0"> مایکروسافت </label>
+              </div>
+
+              <div class="my-1 d-flex align-items-center">
+                <input
+                  type="checkbox"
+                  value=""
+                  id="samsungBrand"
+                  class="ml-2"
+                />
+                <label for="samsungBrand" class="my-0"> سامسونگ </label>
+              </div>
+
+              <div class="my-1 d-flex align-items-center">
+                <input type="checkbox" value="" id="sonyBrand" class="ml-2" />
+                <label for="sonyBrand" class="my-0"> سونی </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-9">
+          <div class="row" id="product-list">
+            <div class="product col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+				<img class="card-img-top" src="./images/asus.jpg" alt="asus">
+				<div class="card-body">
+					<h4 class="card-title">Asus Zenbook</h4>
+					<h5>قیمت: 20000000 تومان</h5>
+					<p class="card-text">خیلی لپتاپ خوبیه! بخرینش.</p>
+				</div>
+				<div class="card-footer">
+					<button class="btn btn-light">افزودن به سبد خرید</button>
+				</div>	
+              </div>
+            </div>
+			
+			<div class="product col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+				<img class="card-img-top" src="./images/macbook.jpg" alt="macbook">
+				<div class="card-body">
+					<h4 class="card-title">Macbook</h4>
+					<h5>قیمت: 60000000 تومان</h5>
+					<p class="card-text">خیلی لپتاپ خوبیه! بخرینش.</p>
+				</div>
+				<div class="card-footer">
+					<button class="btn btn-light">افزودن به سبد خرید</button>
+				</div>	
+              </div>
+            </div>
+			
+			<div class="product col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+				<img class="card-img-top" src="./images/surface.jpg" alt="surface">
+				<div class="card-body">
+					<h4 class="card-title">Surface</h4>
+					<h5>قیمت: 30000000 تومان</h5>
+					<p class="card-text">خیلی لپتاپ خوبیه! بخرینش.</p>
+				</div>
+				<div class="card-footer">
+					<button class="btn btn-light">افزودن به سبد خرید</button>
+				</div>	
+              </div>
+            </div>
+			
+			<div class="product col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+				<img class="card-img-top" src="./images/thinkpad.jpg" alt="thinkpad">
+				<div class="card-body">
+					<h4 class="card-title">Thinkpad</h4>
+					<h5>قیمت: 25000000 تومان</h5>
+					<p class="card-text">خیلی لپتاپ خوبیه! بخرینش.</p>
+				</div>
+				<div class="card-footer">
+					<button class="btn btn-light">افزودن به سبد خرید</button>
+				</div>	
+              </div>
+            </div>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
